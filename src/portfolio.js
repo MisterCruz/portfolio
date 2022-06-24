@@ -1,71 +1,62 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://mistercruz.github.io/portfolio',
+  title: 'RC.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
+  name: 'Rolando Cruz',
   role: 'Front End Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    '👨🏽‍💻 I am an aspiring developer that enjoys building things with code while listening to lofi & drinking matcha 🍵',
+  resume: 'https://mistercruz.github.io/resume/',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/rolandocruzb/',
+    github: 'https://github.com/MisterCruz',
   },
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'YelpCamp',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Built a full stack web app that allows users to upload their favorite campsites and put them on the map',
+    stack: ['Node.js', 'Express.js', 'JavaScript'],
+    
   },
   {
-    name: 'Project 2',
+    name: 'Sorting Algorithm Visualizer',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'An interactive web app to visualize sorting algorithms such as merge sort',
+    stack: ['React', 'JavaScript', 'CSS'],
+    
   },
   {
-    name: 'Project 3',
+    name: 'Generative NFT dApp',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Created a Generative NFT minting decentralized application on Ethereum',
+    stack: ['React', 'Solidity', 'Ethers.js'],
+    
   },
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'React.js',
+  'Node.js',
+  'Express',
+  'Python',
   'Git',
   'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Tailwind CSS',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'rocruz9816@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
