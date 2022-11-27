@@ -7,7 +7,7 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Rolando Cruz',
-  role: 'Front End Engineer',
+  role: 'Software Engineer',
   description:
     '👨🏽‍💻 I am an aspiring developer that enjoys building things with code while listening to lofi & drinking matcha 🍵',
   resume: 'https://mistercruz.github.io/resume/',
@@ -19,25 +19,29 @@ const about = {
 
 const projects = [
   {
-    name: 'YelpCamp',
+    name: 'Find-A-Camp',
     description:
-      'Built a full stack web app that allows users to upload their favorite campsites and put them on the map',
-    stack: ['Node.js', 'Express.js', 'JavaScript'],
-    
+      'Built a full stack web app that allows users to upload their favorite campsites and put them on the map with user authentication',
+    stack: ['Node.js', 'Express.js', 'MongoDB'],
   },
   {
-    name: 'Sorting Algorithm Visualizer',
+    name: 'PizzaNow',
     description:
-      'An interactive web app to visualize sorting algorithms such as merge sort',
-    stack: ['React', 'JavaScript', 'CSS'],
-    
+      'A full stack food delivery application built on React.js/Next.js with a Node.js backend and Paypal integration with live order tracking',
+    stack: ['React.js', 'Express', 'Node.js', 'Next.js', 'MongoDB'],
+  },
+  {
+    name: 'Ghost - An AI Writing Assistant',
+    description:
+      'Created a web app that is an AI writing assistant that writes blog posts, twitter threads, and even ad copies by using GPT-3 about any prompt a user enters. The front end is built using React.js and Next.js with the backend written in Node.js',
+    stack: ['React.js', 'Next.js', 'Node.js', 'ML/AI'],
+    livePreview: 'https://aiwriter-mu.vercel.app/',
   },
   {
     name: 'Generative NFT dApp',
     description:
       'Created a Generative NFT minting decentralized application on Ethereum',
-    stack: ['React', 'Solidity', 'Ethers.js'],
-    
+    stack: ['React.js', 'Solidity', 'Ethers.js'],
   },
 ]
 
@@ -52,6 +56,10 @@ const skills = [
   'Git',
   'CI/CD',
   'Tailwind CSS',
+  'Next.js',
+  'PostgreSQL',
+  'MySQL',
+  'MongoDB',
 ]
 
 const contact = {
