@@ -19,12 +19,6 @@ const about = {
 
 const projects = [
   {
-    name: 'Find-A-Camp',
-    description:
-      'Built a full stack web app that allows users to upload their favorite campsites and put them on the map with user authentication',
-    stack: ['Node.js', 'Express.js', 'MongoDB'],
-  },
-  {
     name: 'PizzaNow',
     description:
       'A full stack food delivery application built on React.js/Next.js with a Node.js backend and Paypal integration with live order tracking',
@@ -36,6 +30,18 @@ const projects = [
       'Created a web app that is an AI writing assistant that writes blog posts, twitter threads, and even ad copies by using GPT-3 about any prompt a user enters. The front end is built using React.js and Next.js with the backend written in Node.js',
     stack: ['React.js', 'Next.js', 'Node.js', 'ML/AI'],
     livePreview: 'https://aiwriter-mu.vercel.app/',
+  },
+  {
+    name: 'Find-A-Camp',
+    description:
+      'Built a full stack web app that allows users to upload their favorite campsites and put them on the map with user authentication',
+    stack: ['Node.js', 'Express.js', 'MongoDB'],
+  },
+  {
+    name: 'E-Commerce Shop',
+    description:
+      'Built a full stack web app with React.js on the frontend and using Strapi for the headless CMS. Integrated the payment system with the Stripe API',
+    stack: ['React.js', 'Strapi Headless CMS', 'TypeScript'],
   },
   {
     name: 'Generative NFT dApp',
