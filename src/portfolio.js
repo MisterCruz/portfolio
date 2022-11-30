@@ -21,13 +21,13 @@ const projects = [
   {
     name: 'PizzaNow',
     description:
-      'A full stack food delivery application built on React.js/Next.js with a Node.js backend and Paypal integration with live order tracking',
+      'A full stack food delivery application built on React.js/Next.js for a responsive and fast user experience. Wrote a Node.js backend to consume the Paypal API to support live order tracking',
     stack: ['React.js', 'Express', 'Node.js', 'Next.js', 'MongoDB'],
   },
   {
     name: 'Ghost - An AI Writing Assistant',
     description:
-      'Created a web app that is an AI writing assistant that writes blog posts, twitter threads, and even ad copies by using GPT-3 about any prompt a user enters. The front end is built using React.js and Next.js with the backend written in Node.js',
+      'An AI writing assistant that writes blog posts, twitter threads, and even ad copies by using GPT-3 about any prompt a user enters. The front end is built using React.js and Next.js with the backend written in Node.js',
     stack: ['React.js', 'Next.js', 'Node.js', 'ML/AI'],
     livePreview: 'https://aiwriter-mu.vercel.app/',
   },
