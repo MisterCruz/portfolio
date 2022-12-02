@@ -9,7 +9,7 @@ const about = {
   name: 'Rolando Cruz',
   role: 'Software Engineer',
   description:
-    '👨🏽‍💻 I am an aspiring developer that enjoys building things with code while listening to lofi & drinking matcha 🍵',
+    '👨🏽‍💻 I am an aspiring developer that enjoys building things with code while listening to lofi & drinking matcha. My previous experience includes working at Amazon as a Software Engineer Intern working on Full Stack Development.',
   resume: 'https://mistercruz.github.io/resume/',
   social: {
     linkedin: 'https://www.linkedin.com/in/rolandocruzb/',
