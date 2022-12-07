@@ -29,7 +29,7 @@ const projects = [
     description:
       'An AI writing assistant that writes blog posts, twitter threads, and even ad copies by using GPT-3 about any prompt a user enters. The front end is built using React.js and Next.js with the backend written in Node.js',
     stack: ['React.js', 'Next.js', 'Node.js', 'ML/AI'],
-    livePreview: 'https://aiwriter-mu.vercel.app/',
+    livePreview: 'https://aiwriter-rc.vercel.app/',
   },
   {
     name: 'Find-A-Camp',
