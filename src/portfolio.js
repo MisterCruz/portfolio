@@ -19,6 +19,19 @@ const about = {
 
 const projects = [
   {
+    name: 'Bug Tracker',
+    description:
+      'Built a project management tool to track project issues, bugs, tickets',
+    stack: [
+      'React.js',
+      'Express',
+      'Node.js',
+      'Next.js',
+      'MongoDB',
+      'TypeScript',
+    ],
+  },
+  {
     name: 'PizzaNow',
     description:
       'A full stack food delivery application built on React.js/Next.js for a responsive and fast user experience. Wrote a Node.js backend to consume the Paypal API to support live order tracking',
@@ -32,10 +45,10 @@ const projects = [
     livePreview: 'https://aiwriter-rc.vercel.app/',
   },
   {
-    name: 'Find-A-Camp',
+    name: 'Pathfinding Visualizer',
     description:
-      'Built a full stack web app that allows users to upload their favorite campsites and put them on the map with user authentication',
-    stack: ['Node.js', 'Express.js', 'MongoDB'],
+      'Built a pathfinding algorithm visualizer in TypeScript and used CSS animations',
+    stack: ['TypeScript', 'Express.js', 'MongoDB'],
   },
   {
     name: 'E-Commerce Shop',
