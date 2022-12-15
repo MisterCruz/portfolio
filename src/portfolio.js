@@ -21,7 +21,7 @@ const projects = [
   {
     name: 'Bug Tracker',
     description:
-      'Built a project management tool to track project issues, bugs, tickets',
+      'Built a project management tool to track project issues, bugs, tickets. Users can create projects and create tickets with progress status and assign users to them.',
     stack: [
       'React.js',
       'Express',
@@ -65,13 +65,14 @@ const projects = [
 ]
 
 const skills = [
-  'HTML',
-  'CSS',
   'JavaScript',
+  'TypeScript',
   'React.js',
   'Node.js',
-  'Express',
+  'Express.js',
   'Python',
+  'Java',
+  'C++',
   'Git',
   'CI/CD',
   'Tailwind CSS',
@@ -79,6 +80,8 @@ const skills = [
   'PostgreSQL',
   'MySQL',
   'MongoDB',
+  'HTML',
+  'CSS',
 ]
 
 const contact = {
