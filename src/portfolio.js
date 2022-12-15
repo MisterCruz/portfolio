@@ -80,6 +80,7 @@ const skills = [
   'PostgreSQL',
   'MySQL',
   'MongoDB',
+  'Docker',
   'HTML',
   'CSS',
 ]
