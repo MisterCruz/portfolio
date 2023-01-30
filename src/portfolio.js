@@ -31,12 +31,15 @@ const projects = [
       'TypeScript',
     ],
   },
+
   {
-    name: 'PizzaNow',
+    name: 'GlowAI',
     description:
-      'A full stack food delivery application built on React.js/Next.js for a responsive and fast user experience. Wrote a Node.js backend to consume the Paypal API to support live order tracking',
-    stack: ['React.js', 'Express', 'Node.js', 'Next.js', 'MongoDB'],
+      'GlowAI is an AI-powered skincare platform that creates personalized routines based on skin type, budget and concerns. GlowAI streamlines the skincare process for users, offering accuracy and convenience.',
+    stack: ['React.js', 'TypeScript', 'Next.js', 'OpenAI API'],
+    livePreview: 'https://glow-ai.vercel.app/',
   },
+
   {
     name: 'Ghost - An AI Writing Assistant',
     description:
@@ -45,16 +48,16 @@ const projects = [
     livePreview: 'https://aiwriter-rc.vercel.app/',
   },
   {
+    name: 'PizzaNow',
+    description:
+      'A full stack food delivery application built on React.js/Next.js for a responsive and fast user experience. Wrote a Node.js backend to consume the Paypal API to support live order tracking',
+    stack: ['React.js', 'Express', 'Node.js', 'Next.js', 'MongoDB'],
+  },
+  {
     name: 'Pathfinding Visualizer',
     description:
       'Built a pathfinding algorithm visualizer in TypeScript and used CSS animations',
     stack: ['TypeScript', 'Express.js', 'MongoDB'],
-  },
-  {
-    name: 'E-Commerce Shop',
-    description:
-      'Built a full stack web app with React.js on the frontend and using Strapi for the headless CMS. Integrated the payment system with the Stripe API',
-    stack: ['React.js', 'Strapi Headless CMS', 'TypeScript'],
   },
   {
     name: 'Generative NFT dApp',
